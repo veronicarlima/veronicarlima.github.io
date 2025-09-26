@@ -1,5 +1,5 @@
-title: Hyde
-description: Site estático no GitHub Pages usando tema remoto Hyde Primeira parte
+title: veronica-github
+description: Techverso. Can u imagine that ?
 url: "https://veronicarlima.github.io"
 baseurl: "" # deixe vazio se for repositório user/organization pages
 
@@ -7,6 +7,3 @@ remote_theme: poole/hyde
 plugins:
   - jekyll-remote-theme
 
-# Opções extras do Hyde
-theme: jekyll-theme-primer # ignora no GitHub Pages, mas evita warnings locais
-paginate: 5
