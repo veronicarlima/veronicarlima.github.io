@@ -1,9 +1,0 @@
-title: veronica-github
-description: Techverso. Can u imagine that ?
-url: "https://veronicarlima.github.io"
-baseurl: "" # deixe vazio se for repositório user/organization pages
-
-remote_theme: poole/hyde
-plugins:
-  - jekyll-remote-theme
-
