@@ -1,37 +1,9 @@
----
-layout: default
-title: Home
----
+## Informacoes da Configuracao do Site 
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+Acessado a primeira pagina para criar o repositorio foi
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+Acessado a pagina de templates de Jekyll para integrar na pagina estatica
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+Acessado a configuracao para selecionar corretamento as Actions usando o template 
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+Identificado que configuracao estara ligada na branch default onde o actions e acionado. 
