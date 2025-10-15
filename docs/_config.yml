@@ -1,12 +1,10 @@
-title: Meu Site com Hyde
-description: Site estático no GitHub Pages usando tema remoto Hyde
-url: "https://veronicarlima.github.io"
-baseurl: "" # deixe vazio se for repositório user/organization pages
+#url: "https://veronicarlima.github.io"
+#baseurl: "" # deixe vazio se for repositório user/organization pages
 
-remote_theme: poole/hyde
+remote_theme: academicpages/academicpages.github.io
 plugins:
   - jekyll-remote-theme
-
-# Opções extras do Hyde
-theme: jekyll-theme-primer # ignora no GitHub Pages, mas evita warnings locais
-paginate: 5
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
