@@ -1,3 +1,12 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+#Setup
 title: "Veronica Lima"
 description: "Meu portfólio e projetos pessoais"
 theme: jekyll-theme-hyde
@@ -11,3 +20,9 @@ author:
 sidebar:
   title: "Sobre mim"
   description: "Desenvolvedora fullstack apaixonada por tecnologia e aprendizado."
+
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
