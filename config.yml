@@ -1,0 +1,13 @@
+title: "Veronica Lima"
+description: "Meu portfólio e projetos pessoais"
+theme: jekyll-theme-hyde
+url: "https://veronicalima.github.io"
+baseurl: ""
+author:
+  name: "Veronica Lima"
+  email: "veronica@email.com"
+
+# opções do Hyde
+sidebar:
+  title: "Sobre mim"
+  description: "Desenvolvedora fullstack apaixonada por tecnologia e aprendizado."
